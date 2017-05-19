@@ -15,10 +15,24 @@ public class InfoActivity extends AppCompatActivity {
         Intent intent = new Intent(this, Main5Activity.class);
         startActivity(intent);
     }
+
     public void main2Click(View view) {
         Intent intent = new Intent(this, Main7Activity.class);
         startActivity(intent);
     }
+    public void main3Click(View view) {
+        Intent intent = new Intent(this, Main6Activity.class);
+        startActivity(intent);
+    }
+    public void main4Click(View view) {
+        Intent intent = new Intent(this, Main8Activity.class);
+        startActivity(intent);
+    }
+    public void main5Click(View view) {
+        Intent intent = new Intent(this, Main4Activity.class);
+        startActivity(intent);
+    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

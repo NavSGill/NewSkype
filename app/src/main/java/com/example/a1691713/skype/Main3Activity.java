@@ -1,5 +1,6 @@
 package com.example.a1691713.skype;
 
+import android.content.Intent;
 import android.graphics.PixelFormat;
 import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
@@ -10,6 +11,10 @@ import android.widget.VideoView;
 
 public class Main3Activity extends AppCompatActivity {
 
+    public void mainClick(View view) {
+        Intent intent = new Intent(this, Main2Activity.class);
+        startActivity(intent);
+    }
 
 
 

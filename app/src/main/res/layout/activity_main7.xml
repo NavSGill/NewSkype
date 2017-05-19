@@ -8,7 +8,7 @@
 
     <ImageView
         android:id="@+id/imageView23"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
@@ -22,7 +22,7 @@
         app:srcCompat="@drawable/b1" />
 
     <android.support.v7.widget.CardView
-        android:layout_width="379dp"
+        android:layout_width="0dp"
         android:layout_height="475dp"
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
@@ -56,25 +56,26 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:orientation="horizontal"
+                    android:layout_gravity="center"
                     android:weightSum="1">
 
                     <ImageView
                         android:id="@+id/imageView43"
-                        android:layout_width="78dp"
+                        android:layout_width="85dp"
                         android:layout_height="50dp"
                         android:layout_gravity="center"
-                        android:layout_weight="1.29"
+                        android:scaleType="fitEnd"
                         app:srcCompat="@drawable/b2" />
 
                     <LinearLayout
-                        android:layout_width="226dp"
+                        android:layout_width="190dp"
                         android:layout_height="match_parent"
-                        android:orientation="vertical"
-                        android:layout_weight="0.37">
+                        android:layout_gravity="center"
+                        android:orientation="vertical">
 
                         <TextView
                             android:id="@+id/textView53"
-                            android:layout_width="match_parent"
+                            android:layout_width="173dp"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
                             android:text="Find friends in skype" />
@@ -84,10 +85,19 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:text="and talk for free" />
+                            android:text="   and talk for free" />
+
                     </LinearLayout>
 
                 </LinearLayout>
+
+                <TextView
+                    android:id="@+id/textView65"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.29"
+                    android:text="Recent Calls"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Menu" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -250,13 +260,15 @@
                     android:id="@+id/textView29"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Addresss book" />
+                    android:text="Addresss book"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Menu" />
 
                 <TextView
                     android:id="@+id/textView19"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="A" />
+                    android:text="A"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Menu" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -336,7 +348,8 @@
                     android:id="@+id/textView45"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="B" />
+                    android:text="B"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Menu" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -375,6 +388,7 @@
                         app:srcCompat="@drawable/b8" />
 
                 </LinearLayout>
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
@@ -412,6 +426,7 @@
                         app:srcCompat="@drawable/b8" />
 
                 </LinearLayout>
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
@@ -451,7 +466,6 @@
                 </LinearLayout>
 
 
-
             </LinearLayout>
         </ScrollView>
     </android.support.v7.widget.CardView>
@@ -468,7 +482,9 @@
         app:layout_constraintTop_toTopOf="parent"
         android:layout_marginRight="8dp"
         android:layout_marginLeft="8dp"
-        android:layout_marginBottom="8dp">
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp">
 
         <ImageButton
             android:id="@+id/imageButton19"
