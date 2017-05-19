@@ -1,0 +1,512 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.a1691713.skype.Main7Activity">
+
+    <ImageView
+        android:id="@+id/imageView23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.148"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/b1" />
+
+    <android.support.v7.widget.CardView
+        android:layout_width="379dp"
+        android:layout_height="475dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.405">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView40"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/a2" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="1">
+
+                    <ImageView
+                        android:id="@+id/imageView43"
+                        android:layout_width="78dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_weight="1.29"
+                        app:srcCompat="@drawable/b2" />
+
+                    <LinearLayout
+                        android:layout_width="226dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_weight="0.37">
+
+                        <TextView
+                            android:id="@+id/textView53"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="Find friends in skype" />
+
+                        <TextView
+                            android:id="@+id/textView54"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="and talk for free" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView33"
+                        android:layout_width="71dp"
+                        android:layout_height="64dp"
+                        app:srcCompat="@drawable/b3" />
+
+                    <LinearLayout
+                        android:layout_width="159dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView6"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Manpreet singh" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:id="@+id/imageView34"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                app:srcCompat="@drawable/b5" />
+
+                            <TextView
+                                android:id="@+id/textView8"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="10-23 , Skype" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/imageView361"
+                        android:layout_width="match_parent"
+                        android:layout_height="47dp"
+                        app:srcCompat="@drawable/b4" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView330"
+                        android:layout_width="71dp"
+                        android:layout_height="64dp"
+                        app:srcCompat="@drawable/b3" />
+
+                    <LinearLayout
+                        android:layout_width="159dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView60"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Manpreet singh" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:id="@+id/imageView304"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                app:srcCompat="@drawable/b5" />
+
+                            <TextView
+                                android:id="@+id/textView08"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="10-23 , Skype" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/imageView364"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        app:srcCompat="@drawable/b4" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="1">
+
+                    <ImageView
+                        android:id="@+id/imageView334"
+                        android:layout_width="68dp"
+                        android:layout_height="63dp"
+                        app:srcCompat="@drawable/b3" />
+
+                    <LinearLayout
+                        android:layout_width="159dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView64"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Manpreet singh" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:id="@+id/imageView342"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                app:srcCompat="@drawable/b5" />
+
+                            <TextView
+                                android:id="@+id/textView82"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="10-23 , Skype" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/imageView362"
+                        android:layout_width="match_parent"
+                        android:layout_height="43dp"
+                        app:srcCompat="@drawable/b4" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/textView29"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Addresss book" />
+
+                <TextView
+                    android:id="@+id/textView19"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView37"
+                        android:layout_width="wrap_content"
+                        android:layout_height="65dp"
+                        app:srcCompat="@drawable/b7" />
+
+                    <LinearLayout
+                        android:layout_width="148dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView42"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Auto" />
+
+                        <TextView
+                            android:id="@+id/textView43"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="#2886" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/imageView328"
+                        android:layout_width="match_parent"
+                        android:layout_height="33dp"
+                        app:srcCompat="@drawable/b8" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView327"
+                        android:layout_width="wrap_content"
+                        android:layout_height="59dp"
+                        app:srcCompat="@drawable/b7" />
+
+                    <LinearLayout
+                        android:layout_width="148dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView452"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Anthony" />
+
+                        <TextView
+                            android:id="@+id/textView423"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="+5146325620" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/imageView38"
+                        android:layout_width="match_parent"
+                        android:layout_height="33dp"
+                        app:srcCompat="@drawable/b8" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/textView45"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="B" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView357"
+                        android:layout_width="75dp"
+                        android:layout_height="61dp"
+                        app:srcCompat="@drawable/b7" />
+
+                    <LinearLayout
+                        android:layout_width="148dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView482"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Baba ji" />
+
+                        <TextView
+                            android:id="@+id/textView431"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="+51463295623" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/imageView388"
+                        android:layout_width="wrap_content"
+                        android:layout_height="33dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/b8" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView387"
+                        android:layout_width="75dp"
+                        android:layout_height="61dp"
+                        app:srcCompat="@drawable/b7" />
+
+                    <LinearLayout
+                        android:layout_width="148dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView472"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Baljinder didi" />
+
+                        <TextView
+                            android:id="@+id/textView463"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="+5129632569" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/imageView358"
+                        android:layout_width="wrap_content"
+                        android:layout_height="33dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/b8" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imageView317"
+                        android:layout_width="75dp"
+                        android:layout_height="67dp"
+                        app:srcCompat="@drawable/b7" />
+
+                    <LinearLayout
+                        android:layout_width="148dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView412"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Bapu ji" />
+
+                        <TextView
+                            android:id="@+id/textView413"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="+2516359568" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/imageView318"
+                        android:layout_width="wrap_content"
+                        android:layout_height="33dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/b8" />
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+        </ScrollView>
+    </android.support.v7.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="366dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="8dp">
+
+        <ImageButton
+            android:id="@+id/imageButton19"
+            android:layout_width="98dp"
+            android:layout_height="match_parent"
+            android:background="@color/cardview_light_background"
+            android:onClick="mainClick"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/info1" />
+
+        <ImageButton
+            android:id="@+id/imageButton18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/cardview_light_background"
+            android:onClick="main1Click"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/cont1" />
+
+        <ImageButton
+            android:id="@+id/imageButton17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/cardview_light_background"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/ph1" />
+
+        <ImageButton
+            android:id="@+id/imageButton12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/cardview_light_background"
+            android:onClick="main2Click"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/con1" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
